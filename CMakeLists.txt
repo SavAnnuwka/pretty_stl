@@ -21,9 +21,7 @@ include_directories(${EIGEN3_INCLUDE_DIR})
 #include <Eigen/Eigen> in main.cpp
 
 
-add_executable(ddd main.cpp )
-
-set(SOURCE_FILES main.cpp ddd/ddd.cpp)
+set(SOURCE_FILES main.cpp  )
 add_executable(untitled37 ${SOURCE_FILES})
 #find_package(Qt5Widgets)
 # target_link_libraries(untitled37 Qt5::Widgets)
